@@ -22,7 +22,7 @@ function App() {
   }, [])
 
   const { details, about, portfolio, projects } = content
-
+  
   return (
     details ?
       <div className="App">
