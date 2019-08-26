@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { fetchData } from './helpers/API'
 import Loader from './components/Loader/Loader'
 import { URL } from './helpers/static'
+import { db } from './helpers/db'
+
 
 import Navigation from './components/Navigation/Navigation'
 import About from './containers/About/About'
@@ -16,17 +17,8 @@ function App() {
   const [content, setcontent] = useState({ details: null, about: null, portfolio: null, projects: null })
 
   useEffect(() => {
-    const fetchAll = async () => {
-      const details = await fetchData(`details`)
-      const about = await fetchData('aboutPage')
-      const portfolio = await fetchData('portfolioPage')
-      const projects = await fetchData('projects')
-
-      setcontent({ details, about, portfolio, projects })
-    }
-
-    fetchAll()
-      .catch(e => console.error('CIH: fetchAll'))
+    const { details, aboutPage, portfolioPage, projects } = db
+    setcontent({ details, about: aboutPage, portfolio: portfolioPage, projects })
   }, [])
 
   const { details, about, portfolio, projects } = content
