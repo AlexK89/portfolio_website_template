@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { URL } from '../../helpers/static'
 import './ProjectCard.scss'
 
 const ProjectCard = (props) => {
     const { project } = props
     return (
         <li className="project_card__item">
-            <Link to={`/Portfolio/project/${project.projectId}`}>
+            <Link to={`${URL}/portfolio/project/${project.projectId}`}>
                 <img
                     src={require(`../../images/${project.projectId}/${project.mainImg}`)}
                     alt="main project" />

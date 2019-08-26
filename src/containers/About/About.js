@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { URL } from '../../helpers/static'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 import Details from '../../components/Details/Details'
 import Contacts from '../../components/Contacts/Contacts'
@@ -22,7 +23,7 @@ const About = props => {
                     <ul className="about_projects__list">
                         {slicedProjects.map(project => <ProjectCard key={project.projectId} project={project} />)}
                     </ul>
-                    <div className="portfolio_more"><Link to="/Portfolio" className="btn btn--md"><span>More</span></Link></div>
+                    <div className="portfolio_more"><Link to={`${URL}/portfolio`} className="btn btn--md"><span>More</span></Link></div>
                 </div>
             }
             <Details details={about.details} />

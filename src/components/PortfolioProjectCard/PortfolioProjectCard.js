@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { URL } from '../../helpers/static'
 import './PortfolioProjectCard.scss'
 
 const PortfolioProjectCard = (props) => {
@@ -18,7 +19,7 @@ const PortfolioProjectCard = (props) => {
                     <h4>About</h4>
                     <p>{project.description}</p>
                 </div>
-                <div className="more"><Link className="btn btn--sm" to={`/Portfolio/project/${project.projectId}`}><span>More</span></Link></div>
+                <div className="more"><Link className="btn btn--sm" to={`${URL}/Portfolio/project/${project.projectId}`}><span>More</span></Link></div>
             </div>
         </li>
     )
