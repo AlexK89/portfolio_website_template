@@ -1,6 +1,6 @@
 export const db = {
     "details": {
-        "brand": "Kristina Kozhushko"
+        "brand": "Random designer"
     },
     "aboutPage": {
         "title": "UI / UX Designer",
