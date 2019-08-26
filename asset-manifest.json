@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio_website_template/static/css/main.686850ff.chunk.css",
-    "main.js": "/portfolio_website_template/static/js/main.cfa33f39.chunk.js",
-    "main.js.map": "/portfolio_website_template/static/js/main.cfa33f39.chunk.js.map",
+    "main.js": "/portfolio_website_template/static/js/main.85bbd408.chunk.js",
+    "main.js.map": "/portfolio_website_template/static/js/main.85bbd408.chunk.js.map",
     "runtime~main.js": "/portfolio_website_template/static/js/runtime~main.6b54a59c.js",
     "runtime~main.js.map": "/portfolio_website_template/static/js/runtime~main.6b54a59c.js.map",
-    "static/js/2.3039a113.chunk.js": "/portfolio_website_template/static/js/2.3039a113.chunk.js",
-    "static/js/2.3039a113.chunk.js.map": "/portfolio_website_template/static/js/2.3039a113.chunk.js.map",
+    "static/js/2.ab6cde59.chunk.js": "/portfolio_website_template/static/js/2.ab6cde59.chunk.js",
+    "static/js/2.ab6cde59.chunk.js.map": "/portfolio_website_template/static/js/2.ab6cde59.chunk.js.map",
     "index.html": "/portfolio_website_template/index.html",
-    "precache-manifest.7813aa6c7aea51fddc404004540405f7.js": "/portfolio_website_template/precache-manifest.7813aa6c7aea51fddc404004540405f7.js",
+    "precache-manifest.c47579333942528c0209467e16aeebd8.js": "/portfolio_website_template/precache-manifest.c47579333942528c0209467e16aeebd8.js",
     "service-worker.js": "/portfolio_website_template/service-worker.js",
     "static/css/main.686850ff.chunk.css.map": "/portfolio_website_template/static/css/main.686850ff.chunk.css.map",
     "static/media/1.jpg": "/portfolio_website_template/static/media/1.4aef2872.jpg",
     "static/media/2.png": "/portfolio_website_template/static/media/2.d126b307.png",
     "static/media/about.png": "/portfolio_website_template/static/media/about.aab934d1.png",
+    "static/media/behance 2.png": "/portfolio_website_template/static/media/behance 2.8bff709a.png",
     "static/media/behance.png": "/portfolio_website_template/static/media/behance.8bff709a.png",
+    "static/media/dribble 2.png": "/portfolio_website_template/static/media/dribble 2.70a48449.png",
     "static/media/dribble.png": "/portfolio_website_template/static/media/dribble.70a48449.png",
+    "static/media/main 2.jpg": "/portfolio_website_template/static/media/main 2.52cfddcf.jpg",
     "static/media/main.jpg": "/portfolio_website_template/static/media/main.52cfddcf.jpg",
+    "static/media/me_bridge 2.jpg": "/portfolio_website_template/static/media/me_bridge 2.5dd7fa82.jpg",
     "static/media/me_bridge.jpg": "/portfolio_website_template/static/media/me_bridge.5dd7fa82.jpg"
   }
 }

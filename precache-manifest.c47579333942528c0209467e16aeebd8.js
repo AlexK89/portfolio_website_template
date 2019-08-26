@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0899b137373369c26c6c8b39eac4164",
+    "revision": "aa87a3e9bf0384f37eba9781daed8932",
     "url": "/portfolio_website_template/index.html"
   },
   {
-    "revision": "889ada9c164f608e7d07",
+    "revision": "8b2dd19c045644bca457",
     "url": "/portfolio_website_template/static/css/main.686850ff.chunk.css"
   },
   {
-    "revision": "3f576225bceee12f1be1",
-    "url": "/portfolio_website_template/static/js/2.3039a113.chunk.js"
+    "revision": "e6c690d93669f6b5a705",
+    "url": "/portfolio_website_template/static/js/2.ab6cde59.chunk.js"
   },
   {
-    "revision": "889ada9c164f608e7d07",
-    "url": "/portfolio_website_template/static/js/main.cfa33f39.chunk.js"
+    "revision": "8b2dd19c045644bca457",
+    "url": "/portfolio_website_template/static/js/main.85bbd408.chunk.js"
   },
   {
     "revision": "4ece4097da28ebc9554a",
@@ -33,11 +33,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8bff709a118631fd6113b3e2f9eb0486",
+    "url": "/portfolio_website_template/static/media/behance 2.8bff709a.png"
+  },
+  {
+    "revision": "8bff709a118631fd6113b3e2f9eb0486",
     "url": "/portfolio_website_template/static/media/behance.8bff709a.png"
   },
   {
     "revision": "70a484490e954b05312218e0929b7527",
+    "url": "/portfolio_website_template/static/media/dribble 2.70a48449.png"
+  },
+  {
+    "revision": "70a484490e954b05312218e0929b7527",
     "url": "/portfolio_website_template/static/media/dribble.70a48449.png"
+  },
+  {
+    "revision": "48f4e07de4032ce40ce8590f1d8a04bf",
+    "url": "/portfolio_website_template/static/media/main 2.48f4e07d.jpg"
+  },
+  {
+    "revision": "52cfddcf5c63e1c0585a2868b832a3bc",
+    "url": "/portfolio_website_template/static/media/main 2.52cfddcf.jpg"
   },
   {
     "revision": "48f4e07de4032ce40ce8590f1d8a04bf",
@@ -46,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52cfddcf5c63e1c0585a2868b832a3bc",
     "url": "/portfolio_website_template/static/media/main.52cfddcf.jpg"
+  },
+  {
+    "revision": "5dd7fa828c7ddeacbbda15f04fb78efc",
+    "url": "/portfolio_website_template/static/media/me_bridge 2.5dd7fa82.jpg"
   },
   {
     "revision": "5dd7fa828c7ddeacbbda15f04fb78efc",
