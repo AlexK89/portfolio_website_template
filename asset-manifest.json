@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ui_portfolio_website/static/css/main.a22ed545.chunk.css",
+    "main.js": "/ui_portfolio_website/static/js/main.73d51e53.chunk.js",
+    "main.js.map": "/ui_portfolio_website/static/js/main.73d51e53.chunk.js.map",
+    "runtime~main.js": "/ui_portfolio_website/static/js/runtime~main.8a5b58d9.js",
+    "runtime~main.js.map": "/ui_portfolio_website/static/js/runtime~main.8a5b58d9.js.map",
+    "static/js/2.06547a42.chunk.js": "/ui_portfolio_website/static/js/2.06547a42.chunk.js",
+    "static/js/2.06547a42.chunk.js.map": "/ui_portfolio_website/static/js/2.06547a42.chunk.js.map",
+    "index.html": "/ui_portfolio_website/index.html",
+    "precache-manifest.b8ae7581e5f05206dd0b44d913fd7ffd.js": "/ui_portfolio_website/precache-manifest.b8ae7581e5f05206dd0b44d913fd7ffd.js",
+    "service-worker.js": "/ui_portfolio_website/service-worker.js",
+    "static/css/main.a22ed545.chunk.css.map": "/ui_portfolio_website/static/css/main.a22ed545.chunk.css.map",
+    "static/media/1.jpg": "/ui_portfolio_website/static/media/1.4aef2872.jpg",
+    "static/media/2.png": "/ui_portfolio_website/static/media/2.d126b307.png",
+    "static/media/about.png": "/ui_portfolio_website/static/media/about.aab934d1.png",
+    "static/media/behance.png": "/ui_portfolio_website/static/media/behance.8bff709a.png",
+    "static/media/dribble.png": "/ui_portfolio_website/static/media/dribble.70a48449.png",
+    "static/media/main.jpg": "/ui_portfolio_website/static/media/main.52cfddcf.jpg",
+    "static/media/me_bridge.jpg": "/ui_portfolio_website/static/media/me_bridge.5dd7fa82.jpg"
+  }
+}
