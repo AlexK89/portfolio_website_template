@@ -1,0 +1,197 @@
+{
+  "details": {
+    "brand": "Kristina Kozhushko"
+  },
+  "aboutPage": {
+    "title": "UI / UX Designer",
+    "subtitle": "Based in London",
+    "about_projects": {
+      "title": "My work"
+    },
+    "aboutSection": {
+      "title": "About me",
+      "text": "test"
+    },
+    "details": {
+      "title": "About me",
+      "img": {
+        "url": "about.png",
+        "alt": "my photo"
+      },
+      "copy": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    "contacts": {
+      "title": "Contact me",
+      "email": "kristinakozhushko3@gmail.com",
+      "socials": [
+        {
+          "title": "linkedin",
+          "icon": "linkedin.png",
+          "url": "#"
+        },
+        {
+          "title": "twitter",
+          "icon": "twitter.png",
+          "url": "#"
+        },
+        {
+          "title": "behance",
+          "icon": "behance.png",
+          "url": "#"
+        },
+        {
+          "title": "dribble",
+          "icon": "dribble.png",
+          "url": "#"
+        }
+      ]
+    }
+  },
+  "portfolioPage": {
+    "details": {
+      "title": "Portfolio",
+      "subtitle": "Great design is my passion",
+      "img": {
+        "url": "me_bridge.jpg",
+        "alt": "my photo"
+      }
+    }
+  },
+  "projects": {
+    "project_1": {
+      "projectId": "project_1",
+      "title": "Project 1",
+      "subtitle": "UI/UX",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "mainImg": "main.jpg",
+      "text": {
+        "problem": {
+          "title": "Problem",
+          "text": [
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+          ],
+          "images": [
+            {
+              "url": "1.jpg",
+              "alt": "text",
+              "orientation": "vertical"
+            },
+            {
+              "url": "2.png",
+              "alt": "text",
+              "orientation": "small"
+            },
+            {
+              "url": "2.png",
+              "alt": "text",
+              "orientation": "horizontal"
+            },
+            {
+              "url": "2.png",
+              "alt": "text",
+              "orientation": "small"
+            },
+            {
+              "url": "2.png",
+              "alt": "text",
+              "orientation": "vertical"
+            },
+            {
+              "url": "1.png",
+              "alt": "text",
+              "orientation": "big"
+            },
+            {
+              "url": "2.png",
+              "alt": "text",
+              "orientation": "small"
+            }
+          ]
+        },
+        "solution": {
+          "title": "Solution",
+          "text": [
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+          ],
+          "images": [
+            {
+              "url": "1.jpg",
+              "alt": "text",
+              "orientation": ""
+            },
+            {
+              "url": "2.png",
+              "alt": "text",
+              "orientation": ""
+            }
+          ]
+        },
+        "result": {
+          "title": "Result",
+          "text": [
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+          ],
+          "images": [
+            {
+              "url": "1.jpg",
+              "alt": "text",
+              "orientation": ""
+            },
+            {
+              "url": "2.png",
+              "alt": "text",
+              "orientation": ""
+            }
+          ]
+        }
+      }
+    },
+    "project_2": {
+      "projectId": "project_2",
+      "title": "Random page",
+      "subtitle": "UI/UX",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "mainImg": "main.jpg",
+      "text": {
+        "problem": {
+          "title": "Title",
+          "text": ["text"],
+          "images": [
+            {
+              "url": "1.jpg",
+              "alt": "text",
+              "orientation": ""
+            },
+            {
+              "url": "2.jpg",
+              "alt": "text",
+              "orientation": ""
+            }
+          ]
+        },
+        "solution": {
+          "title": "Title",
+          "text": ["text"],
+          "images": [
+            {
+              "url": "1.jpg",
+              "alt": "text",
+              "orientation": ""
+            },
+            {
+              "url": "2.jpg",
+              "alt": "text",
+              "orientation": ""
+            }
+          ]
+        },
+        "result": {
+          "title": "Title",
+          "text": ["text"],
+          "images": []
+        }
+      }
+    }
+  }
+}

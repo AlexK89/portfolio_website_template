@@ -1,0 +1,37 @@
+.about_section {
+  background-color: #ddd;
+
+  .about_details {
+    max-width: 1600px;
+    display: grid;
+    max-width: 900px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    grid-gap: 2em 5em;
+    grid-auto-rows: auto;
+
+    &__photo {
+      overflow: hidden;
+      height: 300px;
+      justify-self: center;
+      align-self: center;
+
+      img {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+
+    &__copy {
+      align-self: center;
+      line-height: 2em;
+
+      &::first-letter {
+        color: #3e3e3e;
+        font-size: 3em;
+        font-weight: bold;
+        margin-right: 5px;
+      }
+    }
+  }
+}

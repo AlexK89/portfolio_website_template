@@ -1,0 +1,58 @@
+.project_card__item {
+  overflow: hidden;
+  position: relative;
+  transition: .2s; 
+
+  &:hover {
+    img {
+      height: 160%;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    img {
+      transition: 0.2s;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 200%;
+    }
+  
+    .item_details {
+      cursor: pointer;
+      transition: 0.4s;
+      opacity: 0;
+      position: relative;
+      z-index: 10;
+      background-color: rgba(255, 255, 255, 0.8);
+  
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      h6 {
+        margin: 0;
+        font-size: 3em;
+        color: #666;
+        font-weight: 400;
+      }
+  
+      p {
+        font-size: 1.5em;
+        margin: 0.4125em 0;
+        color: #666;
+        font-style: italic;
+      }
+  
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

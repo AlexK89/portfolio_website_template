@@ -1,0 +1,66 @@
+.portfolio_project_card__item {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    grid-auto-rows: auto;
+    grid-gap: 1em 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(200px, auto);
+    }
+
+    .main_image {
+        overflow: hidden;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 130%;
+
+            @media screen and (max-width: 768px) {
+                height: auto;
+                width: 150%;
+            }
+        }
+    }
+
+    .description {
+        padding: 1em;
+
+        .title {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+            font-weight: 300;
+        }
+
+        .details {
+            margin-top: 2.5em;
+
+            h4 {
+                margin: 0;
+            }
+
+            p {
+                line-height: 1.5em;
+                font-weight: 300;
+                font-style: italic;
+            }
+        }
+
+        .more {
+            margin-top: 2em;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

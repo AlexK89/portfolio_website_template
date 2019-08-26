@@ -1,0 +1,38 @@
+@keyframes scaleUp {
+  0% {transform: scale(0.1)}
+  100% {transform: scale(1)}
+}
+
+.image_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  z-index: 100;
+
+  .img_wrapper {
+    display: inline-block;
+    padding: 5px;
+    background: linear-gradient(127deg, #00a986, #3695d8, #922eb0, #e3279a, #922eb0, #3695d8, #3695d8);
+    background-size: 200% 200%;
+    background-position: center center;
+    margin: 3em auto;
+    max-width: 90%;
+    overflow: initial;
+    transform: scale(0.1);
+    animation: scaleUp 0.3s forwards;
+    will-change: scale;
+
+    img {
+      float: left;
+      width: 100%;
+    }
+  }
+}

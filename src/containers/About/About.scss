@@ -1,0 +1,88 @@
+@keyframes gradientBackground {
+  0% {
+    background-position: 18% 0%;
+  }
+  50% {
+    background-position: 83% 100%;
+  }
+  100% {
+    background-position: 18% 0%;
+  }
+}
+
+@-webkit-keyframes gradientBackground {
+  0% {
+    background-position: 18% 0%;
+  }
+  50% {
+    background-position: 83% 100%;
+  }
+  100% {
+    background-position: 18% 0%;
+  }
+}
+@-moz-keyframes gradientBackground {
+  0% {
+    background-position: 18% 0%;
+  }
+  50% {
+    background-position: 83% 100%;
+  }
+  100% {
+    background-position: 18% 0%;
+  }
+}
+
+.about_page {
+  min-height: 100vh;
+
+  .landing_section {
+    height: 100vh;
+    background: linear-gradient(127deg, #00a986, #3695d8, #922eb0, #e3279a, #922eb0, #3695d8, #3695d8);
+    background-size: 1400% 1400%;
+    animation: gradientBackground 15s ease infinite;
+    -webkit-animation: gradientBackground 15s ease infinite;
+    -moz-animation: gradientBackground 15s ease infinite;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(50xp, 1fr));
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+
+    h1 {
+      font-size: 4em;
+      margin: 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    h4 {
+      text-align: center;
+      font-size: 2em;
+      font-weight: 300;
+      font-style: italic;
+      margin: 0.5em 0;
+      color: #fff;
+    }
+  }
+
+  .about_projects {
+    background-color: #fff;
+    &__list {
+      margin: 2em auto;
+      list-style: none;
+      padding: 0;
+      display: grid;
+      max-width: 900px;
+      grid-template-columns: repeat(auto-fill, minmax(280px, auto));
+      grid-auto-rows: 300px;
+      grid-gap: 20px 20px;
+    }
+
+    .portfolio_more {
+      display: flex;
+      justify-content: center;
+      margin-top: 2em;
+    }
+  }
+}
