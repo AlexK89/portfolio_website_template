@@ -14,10 +14,10 @@ const Contacts = (props) => {
                 {
                     socials.map((social, index) => {
                         return <li key={index} className="socials_item">
-                            <Link to={social.url}>
+                            <a href={social.url}>
                                 <img src={require(`../../images/socials/${social.icon}`)}
                                     alt={social.title} />
-                            </Link>
+                            </a>
                         </li>
                     })
                 }
