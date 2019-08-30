@@ -10,7 +10,6 @@ import Portfolio from './containers/Portfolio/Portfolio'
 import Project from './containers/Project/Project';
 import './App.scss'
 
-
 function App() {
 
   const [content, setcontent] = useState({ details: null, about: null, portfolio: null, projects: null })

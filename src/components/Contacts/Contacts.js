@@ -14,7 +14,7 @@ const Contacts = (props) => {
                 {
                     socials.map((social, index) => {
                         return <li key={index} className="socials_item">
-                            <a href={social.url}>
+                            <a href={social.url} target="_blank" rel="noopener noreferrer">
                                 <img src={require(`../../images/socials/${social.icon}`)}
                                     alt={social.title} />
                             </a>
